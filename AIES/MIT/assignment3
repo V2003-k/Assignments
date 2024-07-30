@@ -1,0 +1,135 @@
+import matplotlib.pyplot as plt
+
+player, opponent = 'x', 'o'
+
+def isMovesLeft(board):
+    for i in range(3):
+        for j in range(3):
+            if (board[i][j] == '_'):
+                return True
+    return False
+
+def evaluate(b):
+    for row in range(3):
+        if(b[row][0] == b[row][1] and b[row][1] == b[row][2]):
+            if(b[row][0] == player):
+                return 10
+            elif(b[row][0] == opponent):
+                return -10
+            
+    for col in range(3):
+        if(b[0][col] == b[1][col] and b[1][col] == b[2][col]):
+            if(b[0][col] == player):
+                return 10
+            elif(b[0][col] == opponent):
+                return -10
+            
+    if(b[0][0] == b[1][1] and b[1][1] == b[2][2]):
+        if(b[0][0] == player):
+            return 10
+        elif(b[0][0] == opponent):
+            return -10
+        
+    if(b[0][2] == b[1][1] and b[1][1] == b[2][0]):
+        if(b[0][2] == player):
+            return 10
+        elif(b[0][2] == opponent):
+            return -10
+    return 0
+
+def minmax(board, depth, isMax):
+    score = evaluate(board)
+
+    if(score == 10):
+        return score
+    
+    if(score == -10):
+        return score
+    
+    if(isMovesLeft(board) == False):
+        return 0
+    
+    if(isMax):
+        best = -1000
+        for i in range(3):
+            for j in range(3):
+                if(board[i][j] == '_'):
+                    board[i][j] = player
+                    best = max(best, minmax(board, depth+1, not isMax))
+                    board[i][j] = '_'
+        return best
+    else:
+        best = 1000
+        for i in range(3):
+            for j in range(3):
+                if(board[i][j] == '_'):
+                    board[i][j] = opponent
+                    best = min(best, minmax(board, depth+1, not isMax))
+                    board[i][j] = '_'
+        return best
+    
+def findBestMove(board):
+    bestVal = -1000
+    bestMove = (-1, -1)
+    
+    for i in range(3):
+        for j in range(3):
+            if(board[i][j] == '_'):
+                board[i][j] = player
+                moveVal = minmax(board, 0, False)
+                board[i][j] = '_'
+                if(moveVal > bestVal):
+                    bestVal = moveVal
+                    bestMove = (i, j)
+    
+    print("The value of the best Move is:", bestVal)
+    print()
+    return bestMove
+
+def printBoard(board):
+    for row in board:
+        print(" | ".join(row))
+        print("-" * 9)
+
+def plotBoard(board, title):
+    fig, ax = plt.subplots()
+    ax.set_title(title)
+    ax.set_xticks([0.5, 1.5], minor=False)
+    ax.set_yticks([0.5, 1.5], minor=False)
+    ax.grid(which='major', color='black', linestyle='-', linewidth=2)
+    ax.set_xticklabels([])
+    ax.set_yticklabels([])
+    ax.set_xlim(-0.5, 2.5)
+    ax.set_ylim(-0.5, 2.5)
+    
+    for i in range(3):
+        for j in range(3):
+            if board[i][j] == player:
+                ax.text(j, 2-i, player, ha='center', va='center', fontsize=32, color='blue')
+            elif board[i][j] == opponent:
+                ax.text(j, 2-i, opponent, ha='center', va='center', fontsize=32, color='red')
+
+    plt.show()
+
+def getUserBoard():
+    board = []
+    print("Enter the board configuration row by row (use 'x' for player, 'o' for opponent, and '_' for empty spaces):")
+    for i in range(3):
+        row = input(f"Row {i + 1}: ").split()
+        board.append(row)
+    return board
+
+board = getUserBoard()
+print("Current board:")
+printBoard(board)
+plotBoard(board, "Current Board")
+
+bestMove = findBestMove(board)
+print("The Optimal Move is:")
+print("ROW:", bestMove[0], " COL:", bestMove[1])
+
+# Update the board with the best move and display it
+board[bestMove[0]][bestMove[1]] = player
+print("Updated board after the optimal move:")
+printBoard(board)
+plotBoard(board, "Board After Optimal Move")

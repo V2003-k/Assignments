@@ -1,0 +1,482 @@
+[
+    {
+        "title": "3 Idiots",
+        "year": 2009,
+        "directors": [
+            {
+                "Name": "Rajkumar Hirani",
+                "DOB": "1962-11-20",
+                "Address": "Mumbai, India",
+                "TelNo": "1234567890"
+            }
+        ],
+        "writers": [
+            {
+                "Name": "Abhijat Joshi",
+                "DOB": "1969-01-12",
+                "Address": "Mumbai, India",
+                "TelNo": "0987654321"
+            }
+        ],
+        "stars": [
+            {
+                "Name": "Aamir Khan",
+                "DOB": "1965-03-14",
+                "Address": "Mumbai, India",
+                "TelNo": "1112223334"
+            },
+            {
+                "Name": "R. Madhavan",
+                "DOB": "1970-06-01",
+                "Address": "Mumbai, India",
+                "TelNo": "2223334445"
+            },
+            {
+                "Name": "Sharman Joshi",
+                "DOB": "1979-03-17",
+                "Address": "Mumbai, India",
+                "TelNo": "3334445556"
+            },
+            {
+                "Name": "Kareena Kapoor",
+                "DOB": "1980-09-21",
+                "Address": "Mumbai, India",
+                "TelNo": "4445556667"
+            },
+            {
+                "Name": "Boman Irani",
+                "DOB": "1959-12-02",
+                "Address": "Mumbai, India",
+                "TelNo": "5556667778"
+            }
+        ],
+        "tags": ["comedy", "drama"],
+        "likes": 5000000
+    },
+    {
+        "title": "Dangal",
+        "year": 2016,
+        "directors": [
+            {
+                "Name": "Nitesh Tiwari",
+                "DOB": "1973-05-21",
+                "Address": "Mumbai, India",
+                "TelNo": "2233445566"
+            }
+        ],
+        "writers": [
+            {
+                "Name": "Piyush Gupta",
+                "DOB": "1978-09-30",
+                "Address": "Mumbai, India",
+                "TelNo": "6677889900"
+            }
+        ],
+        "stars": [
+            {
+                "Name": "Aamir Khan",
+                "DOB": "1965-03-14",
+                "Address": "Mumbai, India",
+                "TelNo": "1112223334"
+            },
+            {
+                "Name": "Sakshi Tanwar",
+                "DOB": "1973-01-12",
+                "Address": "Mumbai, India",
+                "TelNo": "3344556677"
+            },
+            {
+                "Name": "Fatima Sana Shaikh",
+                "DOB": "1992-01-11",
+                "Address": "Mumbai, India",
+                "TelNo": "2233445566"
+            },
+            {
+                "Name": "Sanya Malhotra",
+                "DOB": "1992-02-25",
+                "Address": "Mumbai, India",
+                "TelNo": "4455667788"
+            }
+        ],
+        "tags": ["drama", "biography"],
+        "likes": 4500000
+    },
+    {
+        "title": "Bahubali: The Beginning",
+        "year": 2015,
+        "directors": [
+            {
+                "Name": "S. S. Rajamouli",
+                "DOB": "1973-10-10",
+                "Address": "Hyderabad, India",
+                "TelNo": "3344556677"
+            }
+        ],
+        "writers": [
+            {
+                "Name": "K. V. Vijayendra Prasad",
+                "DOB": "1942-05-27",
+                "Address": "Hyderabad, India",
+                "TelNo": "4455667788"
+            }
+        ],
+        "stars": [
+            {
+                "Name": "Prabhas",
+                "DOB": "1979-10-23",
+                "Address": "Hyderabad, India",
+                "TelNo": "5566778899"
+            },
+            {
+                "Name": "Rana Daggubati",
+                "DOB": "1984-12-14",
+                "Address": "Hyderabad, India",
+                "TelNo": "6677889900"
+            },
+            {
+                "Name": "Anushka Shetty",
+                "DOB": "1981-11-07",
+                "Address": "Hyderabad, India",
+                "TelNo": "7788990011"
+            },
+            {
+                "Name": "Tamannaah",
+                "DOB": "1989-12-21",
+                "Address": "Hyderabad, India",
+                "TelNo": "8899001122"
+            }
+        ],
+        "tags": ["action", "drama"],
+        "likes": 4000000
+    },
+    {
+        "title": "PK",
+        "year": 2014,
+        "directors": [
+            {
+                "Name": "Rajkumar Hirani",
+                "DOB": "1962-11-20",
+                "Address": "Mumbai, India",
+                "TelNo": "1234567890"
+            }
+        ],
+        "writers": [
+            {
+                "Name": "Abhijat Joshi",
+                "DOB": "1969-01-12",
+                "Address": "Mumbai, India",
+                "TelNo": "0987654321"
+            }
+        ],
+        "stars": [
+            {
+                "Name": "Aamir Khan",
+                "DOB": "1965-03-14",
+                "Address": "Mumbai, India",
+                "TelNo": "1112223334"
+            },
+            {
+                "Name": "Anushka Sharma",
+                "DOB": "1988-05-01",
+                "Address": "Mumbai, India",
+                "TelNo": "2233445566"
+            },
+            {
+                "Name": "Sushant Singh Rajput",
+                "DOB": "1986-01-21",
+                "Address": "Mumbai, India",
+                "TelNo": "3344556677"
+            },
+            {
+                "Name": "Sanjay Dutt",
+                "DOB": "1959-07-29",
+                "Address": "Mumbai, India",
+                "TelNo": "4455667788"
+            },
+            {
+                "Name": "Boman Irani",
+                "DOB": "1959-12-02",
+                "Address": "Mumbai, India",
+                "TelNo": "5556667778"
+            }
+        ],
+        "tags": ["comedy", "drama"],
+        "likes": 4800000
+    },
+    {
+        "title": "Kabir Singh",
+        "year": 2019,
+        "directors": [
+            {
+                "Name": "Sandeep Reddy Vanga",
+                "DOB": "1981-12-25",
+                "Address": "Hyderabad, India",
+                "TelNo": "6677889900"
+            }
+        ],
+        "writers": [
+            {
+                "Name": "Sandeep Reddy Vanga",
+                "DOB": "1981-12-25",
+                "Address": "Hyderabad, India",
+                "TelNo": "6677889900"
+            }
+        ],
+        "stars": [
+            {
+                "Name": "Shahid Kapoor",
+                "DOB": "1981-02-25",
+                "Address": "Mumbai, India",
+                "TelNo": "7788990011"
+            },
+            {
+                "Name": "Kiara Advani",
+                "DOB": "1992-07-31",
+                "Address": "Mumbai, India",
+                "TelNo": "8899001122"
+            },
+            {
+                "Name": "Arjan Bajwa",
+                "DOB": "1979-09-03",
+                "Address": "Mumbai, India",
+                "TelNo": "9900112233"
+            },
+            {
+                "Name": "Soham Majumdar",
+                "DOB": "1992-03-07",
+                "Address": "Mumbai, India",
+                "TelNo": "1122334455"
+            }
+        ],
+        "tags": ["drama", "romance"],
+        "likes": 3200000
+    },
+    {
+        "title": "Gully Boy",
+        "year": 2019,
+        "directors": [
+            {
+                "Name": "Zoya Akhtar",
+                "DOB": "1972-10-14",
+                "Address": "Mumbai, India",
+                "TelNo": "5566778899"
+            }
+        ],
+        "writers": [
+            {
+                "Name": "Reema Kagti",
+                "DOB": "1972-09-07",
+                "Address": "Mumbai, India",
+                "TelNo": "6677889900"
+            }
+        ],
+        "stars": [
+            {
+                "Name": "Ranveer Singh",
+                "DOB": "1985-07-06",
+                "Address": "Mumbai, India",
+                "TelNo": "7788990011"
+            },
+            {
+                "Name": "Alia Bhatt",
+                "DOB": "1993-03-15",
+                "Address": "Mumbai, India",
+                "TelNo": "8899001122"
+            },
+            {
+                "Name": "Siddhant Chaturvedi",
+                "DOB": "1993-04-29",
+                "Address": "Mumbai, India",
+                "TelNo": "9900112233"
+            },
+            {
+                "Name": "Kalki Koechlin",
+                "DOB": "1984-01-10",
+                "Address": "Mumbai, India",
+                "TelNo": "1122334455"
+            }
+        ],
+        "tags": ["drama", "music"],
+        "likes": 3000000
+    },
+    {
+        "title": "Stree",
+        "year": 2018,
+        "directors": [
+            {
+                "Name": "Amar Kaushik",
+                "DOB": "1983-05-15",
+                "Address": "Mumbai, India",
+                "TelNo": "2233445566"
+            }
+        ],
+        "writers": [
+            {
+                "Name": "Raj Nidimoru",
+                "DOB": "1975-06-16",
+                "Address": "Hyderabad, India",
+                "TelNo": "3344556677"
+            }
+        ],
+        "stars": [
+            {
+                "Name": "Rajkummar Rao",
+                "DOB": "1984-08-31",
+                "Address": "Mumbai, India",
+                "TelNo": "4455667788"
+            },
+            {
+                "Name": "Shraddha Kapoor",
+                "DOB": "1987-03-03",
+                "Address": "Mumbai, India",
+                "TelNo": "5566778899"
+            },
+            {
+                "Name": "Pankaj Tripathi",
+                "DOB": "1976-09-05",
+                "Address": "Mumbai, India",
+                "TelNo": "6677889900"
+            },
+            {
+                "Name": "Aparshakti Khurana",
+                "DOB": "1987-11-18",
+                "Address": "Mumbai, India",
+                "TelNo": "7788990011"
+            },
+            {
+                "Name": "Abhishek Banerjee",
+                "DOB": "1985-05-05",
+                "Address": "Mumbai, India",
+                "TelNo": "8899001122"
+            }
+        ],
+        "tags": ["comedy", "horror"],
+        "likes": 2900000
+    },
+    {
+        "title": "Andhadhun",
+        "year": 2018,
+        "directors": [
+            {
+                "Name": "Sriram Raghavan",
+                "DOB": "1963-06-22",
+                "Address": "Mumbai, India",
+                "TelNo": "5566778899"
+            }
+        ],
+        "writers": [
+            {
+                "Name": "Arijit Biswas",
+                "DOB": "1974-04-09",
+                "Address": "Mumbai, India",
+                "TelNo": "6677889900"
+            }
+        ],
+        "stars": [
+            {
+                "Name": "Ayushmann Khurrana",
+                "DOB": "1984-09-14",
+                "Address": "Mumbai, India",
+                "TelNo": "8899001122"
+            },
+            {
+                "Name": "Tabu",
+                "DOB": "1971-11-04",
+                "Address": "Mumbai, India",
+                "TelNo": "9900112233"
+            },
+            {
+                "Name": "Radhika Apte",
+                "DOB": "1985-09-07",
+                "Address": "Mumbai, India",
+                "TelNo": "1122334455"
+            }
+        ],
+        "tags": ["thriller", "drama"],
+        "likes": 2800000
+    },
+    {
+        "title": "Padmaavat",
+        "year": 2018,
+        "directors": [
+            {
+                "Name": "Sanjay Leela Bhansali",
+                "DOB": "1963-02-24",
+                "Address": "Mumbai, India",
+                "TelNo": "5566778899"
+            }
+        ],
+        "writers": [
+            {
+                "Name": "Prakash Kapadia",
+                "DOB": "1971-08-18",
+                "Address": "Mumbai, India",
+                "TelNo": "6677889900"
+            }
+        ],
+        "stars": [
+            {
+                "Name": "Deepika Padukone",
+                "DOB": "1986-01-05",
+                "Address": "Mumbai, India",
+                "TelNo": "8899001122"
+            },
+            {
+                "Name": "Ranveer Singh",
+                "DOB": "1985-07-06",
+                "Address": "Mumbai, India",
+                "TelNo": "7788990011"
+            },
+            {
+                "Name": "Shahid Kapoor",
+                "DOB": "1981-02-25",
+                "Address": "Mumbai, India",
+                "TelNo": "9900112233"
+            }
+        ],
+        "tags": ["drama", "history"],
+        "likes": 2700000
+    },
+    {
+        "title": "Tanhaji: The Unsung Warrior",
+        "year": 2020,
+        "directors": [
+            {
+                "Name": "Om Raut",
+                "DOB": "1981-12-21",
+                "Address": "Mumbai, India",
+                "TelNo": "7788990011"
+            }
+        ],
+        "writers": [
+            {
+                "Name": "Prakash Kapadia",
+                "DOB": "1971-08-18",
+                "Address": "Mumbai, India",
+                "TelNo": "6677889900"
+            }
+        ],
+        "stars": [
+            {
+                "Name": "Ajay Devgn",
+                "DOB": "1969-04-02",
+                "Address": "Mumbai, India",
+                "TelNo": "8899001122"
+            },
+            {
+                "Name": "Saif Ali Khan",
+                "DOB": "1970-08-16",
+                "Address": "Mumbai, India",
+                "TelNo": "9900112233"
+            },
+            {
+                "Name": "Kajol",
+                "DOB": "1974-08-05",
+                "Address": "Mumbai, India",
+                "TelNo": "1122334455"
+            }
+        ],
+        "tags": ["drama", "action"],
+        "likes": 2600000
+    }
+]

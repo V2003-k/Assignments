@@ -1,0 +1,53 @@
+Q1. display all the hotels who have recieved greater than or equal to 5000 likes
+Ans: db.Hotel.find({Likes: {$gte: 5000}}, {Hotel_Name: 1})
+
+Q2. display all the hotels who have chinese cuisines
+Ans: db.Hotel.find({Cuisines: "Chinese"}, {Hotel_Name: 1})
+
+Q3. which are the different cities in which our hotels are located in our database
+Ans: db.Hotel.find({}, {"Address.City": 1})
+
+Q4. display the total no of hotels from pune mumbai or goa cities
+Ans: db.Hotel.count({"Address.City": {$in: ["Pune", "Mumbai", "Goa"]}}, {Hotel_Name: 1})
+
+Q5. top 5 hotels based on their likes
+Ans: db.Hotel.find({}, {Hotel_Name: 1}, {Likes: -1}).limit(5)
+
+Q6. display all the hotel names which serves atleast five cuisines
+Ans: db.Hotel.find({Cuisines: {$size: 5}}, {Hotel_Name: 1})
+
+Q7. display all the hotels which serves italian, chinese and panjabi food
+Ans: db.Hotel.find({Cuisines: {$in: ["Italian", "Chinese", "Panjabi"]}}, {Hotel_Name: 1})
+
+Q8. display all the hotels which are not having ac and non ac both types
+Ans: db.Hotel.find()
+
+Q9. increment the likes of all the hotels whoes rating is greater than 4 by 5
+Ans: db.Hotel.updateMany({Ratings: {$gte: 4}}, {$inc: {Ratings: 1}})
+
+Q10. add one of the attributes for all the hotels year of establishment
+Ans: db.Hotel.updateOne({Hotel_Id: }, {$set: {Year_Of_Establishment: }})
+
+Q11. add few more cuisines for the hotel taj like continental south indian french
+Ans: db.Hotel.updateMany({Hotel_Name: "The Taj Mahal Palace"}, {$set: {Cuisines: ["South-Indian", "Panjabi", "Maharashtrian"]}})
+
+Q12. remove the first cuisine from the hotel taj
+Ans:  db.Hotel.updateOne({Hotel_Name: "The Taj Mahal Palace"}, {$pop: {Cuisines: 1}})
+
+
+Q13. change the attribute name price for all the hotels to price per night
+Ans: 
+
+Q14. change the attribute name type to room type for all the hotels in city pune
+Ans: db.Hotel.updateMany({"Address.City": "Pune"}, {$rename: {Type: "Room_Type"}})
+
+Q15. replace the document of hotel taj with new document
+Ans:  db.Hotel.replaceOne({Hotel_Name: "The Taj Mahal Palace"}, {Hotel_Name: "The Taj Mahal Palace", Address: {City: "Mumbai", State: "Maharashtra"}})
+
+Q16. remove all the hotel details having rating less than 2000
+Ans:  db.Hotel.deleteMany({Likes: {$lt: 2000}})
+
+Q17. change the price of all the hotels from 5000 to 8000 whose type is ac of hotel
+Ans:  db.Hotel.updateMany({Type: "AC"}, {$set: {Price: 8000}})
+
+Q18. 

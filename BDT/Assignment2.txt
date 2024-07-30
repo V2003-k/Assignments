@@ -1,0 +1,43 @@
+Query Performance Analysis: 
+
+Q1. 
+Ans: db.Hotel.getIndexes()
+
+Q2. 
+Ans: db.Hotel.find({borough: "Manhattan"}).explain()
+
+Q3.
+Ans: db.Hotel.find({borough: "Manhattan"}).explain("executionStats")
+
+Q4.
+Ans: db.Hotel.find({borough: "Manhattan"}).explain("allPlanExecution")
+
+Q5.
+Ans:db.Hotel.createIndex({borough: 1})
+
+Q6. 
+Ans: db.Hotel.find({$and: [{"cuisine": {$eq: "Italian"}}, {"grades.score": {$gt: 50}}]}).explain("executionStats")
+     db.Hotel.createIndex({cuisine: 1})
+     db.Hotel.find({$and: [{"cuisine": {$eq: "Italian"}}, {"grades.score": {$gt: 50}}]}).explain("executionStats")
+     db.Hotel.createIndex({cuisine: 1, "grades.score": 1})
+     db.Hotel.getIndexes()
+     db.Hotel.find({$and: [{"cuisine": {$eq: "Italian"}}, {"grades.score": {$gt: 50}}]}).explain("executionStats")
+
+Aggregation Framework Operatos:
+Q1. Filters hotels with a rating of 4.7 or higher ($match).
+Ans: db.Hotel.aggregate({$match: {Ratings: {$gt: 4.7}}})
+
+Q2. Unwinds the rooms array to get individual room details ($unwind).
+Ans: db.Hotel.aggregate({$unwind: "$Rooms"})
+
+Q3. Groups by hotel name to calculate the average room price ($group).
+Ans: db.Hotel.aggregate({$group: {_id: "$Hotel_Name", avgRooomPrice: {$avg: "$Rooms.Price"}}})
+
+Q4. Projects the hotel name and the calculated average price ($project).
+Ans: db.Hotel.aggregate({$project: {_id: 0, hotelName: "$_id", avgRoomPrice: 1}})
+
+Q5. Sorts the results by average price in descending order ($sort).
+Ans: db.Hotel.aggregate({$sort: {avgRoomPrice: -1}})
+
+Q6. Limits the results to the top 5 hotels ($limit).
+Ans: db.Hotel.aggregate({$limit: 5})

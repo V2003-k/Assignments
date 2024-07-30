@@ -1,0 +1,252 @@
+[
+    {
+        "Hotel Id": "H001",
+        "Hotel Name": "The Taj Mahal Palace",
+        "Type": "Luxury",
+        "Ratings": 4.8,
+        "Address": {
+          "Area": "Colaba",
+          "City": "Mumbai",
+          "Pincode": 400001
+        },
+        "Rooms": [
+          {
+            "Roomno": "101",
+            "Type": "Deluxe",
+            "Price": 15000
+          },
+          {
+            "Roomno": "102",
+            "Type": "Suite",
+            "Price": 25000
+          }
+        ],
+        "Cuisines": ["Indian", "Italian", "Chinese"],
+        "likes": 5000
+    },
+    {
+        "Hotel Id": "H002",
+        "Hotel Name": "Oberoi Grand",
+        "Type": "Luxury",
+        "Ratings": 4.6,
+        "Address": {
+          "Area": "Jawaharlal Nehru Road",
+          "City": "Kolkata",
+          "Pincode": 700013
+        },
+        "Rooms": [
+          {
+            "Roomno": "201",
+            "Type": "Deluxe",
+            "Price": 12000
+          },
+          {
+            "Roomno": "202",
+            "Type": "Suite",
+            "Price": 22000
+          }
+        ],
+        "Cuisines": ["Indian", "Continental", "Thai"],
+        "likes": 3200
+    },
+    {
+        "Hotel Id": "H003",
+        "Hotel Name": "ITC Maurya",
+        "Type": "Luxury",
+        "Ratings": 4.7,
+        "Address": {
+          "Area": "Diplomatic Enclave",
+          "City": "New Delhi",
+          "Pincode": 110021
+        },
+        "Rooms": [
+          {
+            "Roomno": "301",
+            "Type": "Executive",
+            "Price": 18000
+          },
+          {
+            "Roomno": "302",
+            "Type": "Presidential Suite",
+            "Price": 35000
+          }
+        ],
+        "Cuisines": ["Indian", "Japanese", "Chinese"],
+        "likes": 4500
+    },
+    {
+        "Hotel Id": "H004",
+        "Hotel Name": "Leela Palace",
+        "Type": "Luxury",
+        "Ratings": 4.8,
+        "Address": {
+          "Area": "MRC Nagar",
+          "City": "Chennai",
+          "Pincode": 600028
+        },
+        "Rooms": [
+          {
+            "Roomno": "401",
+            "Type": "Deluxe",
+            "Price": 16000
+          },
+          {
+            "Roomno": "402",
+            "Type": "Suite",
+            "Price": 27000
+          }
+        ],
+        "Cuisines": ["Indian", "Italian", "Japanese"],
+        "likes": 4000
+    },
+    {
+        "Hotel Id": "H005",
+        "Hotel Name": "Taj Falaknuma Palace",
+        "Type": "Luxury",
+        "Ratings": 4.9,
+        "Address": {
+          "Area": "Engine Bowli",
+          "City": "Hyderabad",
+          "Pincode": 500053
+        },
+        "Rooms": [
+          {
+            "Roomno": "501",
+            "Type": "Deluxe",
+            "Price": 19000
+          },
+          {
+            "Roomno": "502",
+            "Type": "Suite",
+            "Price": 30000
+          }
+        ],
+        "Cuisines": ["Indian", "Italian", "Mediterranean"],
+        "likes": 4800
+    },
+    {
+        "Hotel Id": "H006",
+        "Hotel Name": "Taj West End",
+        "Type": "Luxury",
+        "Ratings": 4.6,
+        "Address": {
+          "Area": "Race Course Road",
+          "City": "Bengaluru",
+          "Pincode": 560001
+        },
+        "Rooms": [
+          {
+            "Roomno": "601",
+            "Type": "Executive",
+            "Price": 14000
+          },
+          {
+            "Roomno": "602",
+            "Type": "Suite",
+            "Price": 23000
+          }
+        ],
+        "Cuisines": ["Indian", "Thai", "Continental"],
+        "likes": 3700
+    },
+    {
+        "Hotel Id": "H007",
+        "Hotel Name": "Taj Lake Palace",
+        "Type": "Luxury",
+        "Ratings": 4.9,
+        "Address": {
+          "Area": "Lake Pichola",
+          "City": "Udaipur",
+          "Pincode": 313001
+        },
+        "Rooms": [
+          {
+            "Roomno": "701",
+            "Type": "Deluxe",
+            "Price": 17000
+          },
+          {
+            "Roomno": "702",
+            "Type": "Suite",
+            "Price": 28000
+          }
+        ],
+        "Cuisines": ["Indian", "Chinese", "Continental"],
+        "likes": 4500
+    },
+    {
+        "Hotel Id": "H008",
+        "Hotel Name": "JW Marriott",
+        "Type": "Luxury",
+        "Ratings": 4.7,
+        "Address": {
+          "Area": "Senapati Bapat Road",
+          "City": "Pune",
+          "Pincode": 411016
+        },
+        "Rooms": [
+          {
+            "Roomno": "801",
+            "Type": "Executive",
+            "Price": 13000
+          },
+          {
+            "Roomno": "802",
+            "Type": "Suite",
+            "Price": 22000
+          }
+        ],
+        "Cuisines": ["Indian", "Italian", "Chinese"],
+        "likes": 3900
+    },
+    {
+        "Hotel Id": "H009",
+        "Hotel Name": "Lalit Great Eastern",
+        "Type": "Luxury",
+        "Ratings": 4.5,
+        "Address": {
+          "Area": "Dalhousie Square",
+          "City": "Kolkata",
+          "Pincode": 700069
+        },
+        "Rooms": [
+          {
+            "Roomno": "901",
+            "Type": "Deluxe",
+            "Price": 11000
+          },
+          {
+            "Roomno": "902",
+            "Type": "Suite",
+            "Price": 20000
+          }
+        ],
+        "Cuisines": ["Indian", "Continental", "Thai"],
+        "likes": 3100
+    },
+    {
+        "Hotel Id": "H010",
+        "Hotel Name": "Radisson Blu Plaza",
+        "Type": "Luxury",
+        "Ratings": 4.6,
+        "Address": {
+          "Area": "Mahipalpur",
+          "City": "New Delhi",
+          "Pincode": 110037
+        },
+        "Rooms": [
+          {
+            "Roomno": "1001",
+            "Type": "Executive",
+            "Price": 12500
+          },
+          {
+            "Roomno": "1002",
+            "Type": "Suite",
+            "Price": 21000
+          }
+        ],
+        "Cuisines": ["Indian", "Italian", "Japanese"],
+        "likes": 3400
+    }                
+]
